@@ -12,6 +12,8 @@
     input,button{box-sizing:border-box;width:100%;padding:12px;font:inherit;border:1px solid #a8b8ad;border-radius:8px}
     button{margin-top:24px;background:#236c4c;color:white;cursor:pointer}button:disabled{opacity:.6}
     #language-toggle{width:auto;display:block;margin:0 0 16px auto;background:white;color:#236c4c}
+    figure{margin:20px 0}figure img{display:block;max-width:100%;height:auto;border:1px solid #a8b8ad;border-radius:8px}
+    figcaption{margin-top:6px;font-size:14px;color:#536559}
     .note{font-size:14px;color:#536559}#status{min-height:26px}a{color:#236c4c}
   </style>
 </head>
@@ -31,6 +33,10 @@
   </form>
   <p id="status" role="status" aria-live="polite"></p>
   <p class="note" data-i18n="instructions">In Google Agenda op een computer: Instellingen → Importeren en exporteren → kies het gedownloade .ics-bestand en een agenda → Importeren. Dit is een momentopname en wordt niet automatisch bijgewerkt. Meldingen zijn afhankelijk van je agenda-instellingen.</p>
+  <h2 data-i18n="stepsTitle">Zo importeer je de kalender</h2>
+  <figure><img src="./settings.png" alt="" loading="lazy"><figcaption data-i18n="step1">Stap 1: Open de instellingen in Google Agenda.</figcaption></figure>
+  <figure><img src="./import.png" alt="" loading="lazy"><figcaption data-i18n="step2">Stap 2: Kies Importeren en exporteren en selecteer het gedownloade .ics-bestand.</figcaption></figure>
+  <figure><img src="./calendar.png" alt="" loading="lazy"><figcaption data-i18n="step3">Stap 3: Je ziet de ophaaldagen nu in je agenda.</figcaption></figure>
   <p class="note" data-i18n="tip">Tip: Maak een aparte agenda, zodat je deze met je partner kunt delen. Je kunt de agenda ook eenvoudig aan- of uitzetten.</p>
   <p class="note" data-i18n="disclaimer">Onafhankelijke toepassing; niet verbonden aan ROVA.</p>
   <script type="module" src="./app.js"></script>
